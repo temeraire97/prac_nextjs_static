@@ -2,17 +2,12 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 # 목차
 
-[Getting Started](#Getting Started)
-
-[Learn More](#Learn More)
-
-[프론트엔드 배포 파이프라인](#프론트엔드 배포 파이프라인)
-
-    [개요](#개요)
-
-    [주요 링크](#주요 링크)
-
-    [주요 개념](#주요 개념)
+- [Getting Started](#Getting-Started)
+- [Learn More](#Learn-More)
+- [프론트엔드 배포 파이프라인](#프론트엔드-배포-파이프라인)
+    - [개요](#개요)
+    - [주요 링크](#주요-링크)
+    - [주요 개념](#주요-개념)
 
 ## Getting Started
 
