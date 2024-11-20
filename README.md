@@ -64,8 +64,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ### 주요 개념
 
-- GitHub Actions과 CI/CD 도구: GitHub에서 제공하는 자동화 도구로, 코드 변경사항 발생 시 자동으로 빌드, 테스트, 배포를 수행할 수 있음
-- S3와 스토리지: AWS에서 제공하는 클라우드 스토리지 서비스로, 정적 웹사이트 호스팅, 파일 저장 등에 사용됨
-- CloudFront와 CDN: AWS의 CDN 서비스로, 전 세계 엣지 로케이션을 통해 콘텐츠를 빠르게 전송하며 S3와 연동하여 정적 웹사이트 성능을 향상시킴
-- 캐시 무효화(Cache Invalidation): CDN에 저장된 캐시를 강제로 삭제하여 최신 콘텐츠가 사용자에게 전달되도록 하는 작업
-- Repository secret과 환경변수: GitHub 저장소에 민감한 정보(API 키, 비밀번호 등)를 안전하게 저장하고 Actions workflow에서 사용할 수 있게 하는 기능
+- GitHub Actions과 CI/CD 도구:
+    - GitHub에서 제공하는 자동화 도구로, 코드 변경사항 발생 시 자동으로 빌드, 테스트, 배포를 수행할 수 있음
+- S3와 스토리지:
+    - AWS에서 제공하는 클라우드 스토리지 서비스로, 정적 웹사이트 호스팅, 파일 저장 등에 사용됨
+- CloudFront와 CDN:
+    - AWS의 CDN 서비스로, 전 세계 엣지 로케이션을 통해 콘텐츠를 빠르게 전송하며 S3와 연동하여 정적 웹사이트 성능을 향상시킴
+- 캐시 무효화(Cache Invalidation):
+    - CDN에 저장된 캐시를 강제로 삭제하여 최신 콘텐츠가 사용자에게 전달되도록 하는 작업
+- Repository secret과 환경변수:
+    - GitHub 저장소에 민감한 정보(API 키, 비밀번호 등)를 안전하게 저장하고 Actions workflow에서 사용할 수 있게 하는 기능
